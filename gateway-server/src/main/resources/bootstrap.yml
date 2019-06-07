@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: GATEWAY-SERVER
+  boot:
+    admin:
+      client:
+        url: http://localhost:8585
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+server:
+  port: 8688
+
