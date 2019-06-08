@@ -18,7 +18,7 @@ public class GatewayServerApplication {
     }
 
     @Bean
-    public RouteLocator customeRouteLocator(RouteLocatorBuilder builder){
+    public RouteLocator customRouteLocator(RouteLocatorBuilder builder){
         return builder.routes()
                 .route("first-fake-service", r -> r.path("/hi/").uri("lb://first-fake-service"))
                 .build();
