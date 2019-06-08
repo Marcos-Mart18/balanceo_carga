@@ -9,11 +9,19 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.khtm.test.gateway</groupId>
-	<artifactId>third-fake-service</artifactId>
+	<artifactId>gateway-test-root</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>third-fake-service</name>
+	<name>gateway-test-root</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>pom</packaging>
 
+	<modules>
+		<module>gateway-server</module>
+		<module>second-fake-service</module>
+		<module>first-fake-service</module>
+		<module>eureka-server</module>
+		<module>admin-server</module>
+	</modules>
 
 
 </project>
