@@ -21,6 +21,8 @@
 		<module>first-fake-service</module>
 		<module>eureka-server</module>
 		<module>admin-server</module>
+		<module>fourth-fake-service</module>
+		<module>third-fake-service</module>
 	</modules>
 
 
