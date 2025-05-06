@@ -10,7 +10,7 @@ specific services. this project contains follow modules:
 * second-fake-service
 
 `first-fake-service`, `second-fake-sevice`, `third-fake-sevice`
- and `fourth-fake-sevice` are same services with same
+ , `fourth-fake-sevice` , 'fifth-fake-service' are same services with same
 application name. These services have unique response on `/hi/` address.
 `first-fake-service` returns `HELLO FROM FIRST-FAKE-SERVER` 
 , `second-fake-service` returns `HELLO FROM SECOND-FAKE-SERVER`
