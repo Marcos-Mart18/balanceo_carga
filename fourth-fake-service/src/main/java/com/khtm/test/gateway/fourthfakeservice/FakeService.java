@@ -12,4 +12,8 @@ public class FakeService {
         return "HELLO FROM FOURTH-FAKE-SERVER";
     }
 
+    @RequestMapping(method = RequestMethod.GET, value = "/howru")
+    public String sayhowru() {
+        return "Fine, FROM FOURTH-FAKE-SERVER";
+    }
 }

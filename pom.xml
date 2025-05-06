@@ -23,6 +23,7 @@
 		<module>admin-server</module>
 		<module>fourth-fake-service</module>
 		<module>third-fake-service</module>
+		<module>fifth-fake-service</module>
 	</modules>
 
 

@@ -21,6 +21,7 @@ public class GatewayServerApplication {
     public RouteLocator customRouteLocator(RouteLocatorBuilder builder){
         return builder.routes()
                 .route("first-fake-service", r -> r.path("/hi/").uri("lb://first-fake-service"))
+                .route("first-fake-service", r -> r.path("/howru/").uri("lb://first-fake-service"))
                 .build();
     }
 
